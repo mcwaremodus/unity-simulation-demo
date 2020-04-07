@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
 {
-    SabreHandler sHand;
+    //SabreHandler sHand;
 
     Vector3 moveInput;
     Vector3 rotInput;
@@ -14,7 +14,7 @@ public class PlayerInput : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        sHand = GetComponent<SabreHandler>();
+        //sHand = GetComponent<SabreHandler>();
     }
 
     // Update is called once per frame
@@ -43,6 +43,6 @@ public class PlayerInput : MonoBehaviour
     void FixedUpdate()
     {
         // Send input
-        sHand.MoveInput(moveInput, rotInput, powered);
+        //sHand.MoveInput(moveInput, rotInput, powered);
     }
 }
